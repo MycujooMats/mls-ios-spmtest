@@ -21,7 +21,7 @@ let package = Package(
             name: "MLSSDK",
             dependencies: ["Alamofire", "Moya"],
             path: "Sources/Core",
-            exclude: ["Core/App/Support Files/Info.plist", "Examples"],
+            exclude: ["Core/App/Support Files/Info.plist", "../Examples"],
             resources: [
                 .copy("Core/Resources/fonts/RobotoMono-Regular.ttf"),
                 .copy("Core/Resources/fonts/RobotoMono-Bold.ttf"),
